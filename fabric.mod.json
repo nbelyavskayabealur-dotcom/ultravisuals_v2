@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "clientvisuals",
+  "version": "${version}",
+  "name": "Client Visuals",
+  "description": "Cosmetic client-side visuals",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.visuals.VisualsClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
